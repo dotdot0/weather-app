@@ -15,7 +15,7 @@ const foreCaster = (latitude, longitude, callback) => {
       callback(undefined, {
         temprature : body.current.temperature,
         fells_like : body.current.feelslike,
-        weather_description : body.current.weather_descriptions
+        weather_description : body.current.weather_descriptions[0]
       })
     }
   })

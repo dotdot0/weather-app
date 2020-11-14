@@ -36,3 +36,24 @@ input{
   background-color: #CF6262;
   color: aliceblue;
 }
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  color:  #8B8888 ;
+}
+
+#ah1{
+  text-align: center;
+}
+
+#result{
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+.resultp{
+  font-size: 30px;
+}
