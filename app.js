@@ -1,13 +1,20 @@
 const express = require('express')
+const geoCoder = require('./weather.js')
+const foreCaster = require('./forecast.js')
+const path = require('path')
+
+const Port = process.env.PORT || 8080
 
 const app = express()
+const publicPath = path.join(__dirname, '/public')
+const appPath = path.join(__dirname, '/public/index.html')
 
-const PORT = process.env.PORT || 8080
+app.use(express.static(publicPath))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.sendFile(appPath)
 })
 
-app.listen(PORT, () => {
-  console.log(`The app is running at http://localhost:${PORT}`);
+app.listen(Port, () => {
+  console.log(`The app is running at http://localhost:${Port}`);
 })
