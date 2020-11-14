@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Alata';
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+}
+
+#top-bar{
+  height: 60px;
+  background: linear-gradient(90deg, rgba(64,180,255,1) 13%, rgba(86,195,232,1) 21%, rgba(29,51,209,1) 29%, rgba(180,31,174,1) 39%, rgba(37,227,215,1) 54%, rgba(22,211,233,1) 66%, rgba(27,3,191,1) 96%);
+}
+
+#input-section{
+  width: 300px;
+  height: 40px;
+  margin: 0px auto;
+}
+
+input{
+  border: 1px solid #000000;
+  padding: 8px;
+  margin-left: 50px;
+  font-family: 'Alata';
+}
+
+#sehbtn{
+  border: none;
+  padding: 9px;
+  font-family: 'Alata';
+  background-color: #CF6262;
+  color: aliceblue;
+}
